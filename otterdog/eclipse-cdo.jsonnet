@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-cdo') {
+orgs.newOrg('modeling.emf.cdo', 'eclipse-cdo') {
   settings+: {
     blog: "https://projects.eclipse.org/projects/modeling.emf.cdo",
     description: "The Eclipse CDO™ Model Repository is a distributed shared model framework for EMF models.",
